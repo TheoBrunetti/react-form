@@ -1,0 +1,28 @@
+form {
+    display: grid;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+input,
+textarea {
+    margin-top: 1em;
+}
+.success,
+.error {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.success {
+    background: lightgreen;
+}
+
+.error {
+    background: red;
+}
