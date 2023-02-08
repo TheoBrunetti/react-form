@@ -42,9 +42,21 @@ const FormTemplate = () => {
         <div className="form-container">
             <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input type="text" name="name" required autoComplete="off" />
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Nom"
+                    required
+                    autoComplete="off"
+                />
                 <label>Email</label>
-                <input type="email" name="email" required autoComplete="off" />
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="exemple@exemple.com"
+                    required
+                    autoComplete="off"
+                />
                 <label>Message</label>
                 <textarea name="message" required autoComplete="off" />
                 <input type="submit" value="Envoyer" />
